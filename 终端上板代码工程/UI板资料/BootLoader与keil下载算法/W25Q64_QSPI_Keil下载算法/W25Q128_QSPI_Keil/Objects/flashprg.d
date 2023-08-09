@@ -1,0 +1,16 @@
+.\objects\flashprg.o: FlashPrg.c
+.\objects\flashprg.o: FlashOS.H
+.\objects\flashprg.o: .\SYSTEM\sys\sys.h
+.\objects\flashprg.o: .\SYSTEM\sys\stm32l431xx.h
+.\objects\flashprg.o: .\SYSTEM\sys\core_cm4.h
+.\objects\flashprg.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flashprg.o: .\SYSTEM\sys\cmsis_version.h
+.\objects\flashprg.o: .\SYSTEM\sys\cmsis_compiler.h
+.\objects\flashprg.o: .\SYSTEM\sys\cmsis_armcc.h
+.\objects\flashprg.o: .\SYSTEM\sys\mpu_armv7.h
+.\objects\flashprg.o: .\SYSTEM\sys\system_stm32l4xx.h
+.\objects\flashprg.o: .\SYSTEM\delay\delay.h
+.\objects\flashprg.o: .\HARDWARE\W25QXX\norflash.h
+.\objects\flashprg.o: .\HARDWARE\QSPI\qspi.h
+.\objects\flashprg.o: .\SYSTEM\usart\usart.h
+.\objects\flashprg.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

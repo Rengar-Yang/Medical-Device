@@ -1,0 +1,11 @@
+.\objects\usart.o: SYSTEM\usart\usart.c
+.\objects\usart.o: .\SYSTEM\sys\sys.h
+.\objects\usart.o: .\SYSTEM\sys\stm32h7xx.h
+.\objects\usart.o: .\SYSTEM\sys\stm32h750xx.h
+.\objects\usart.o: .\SYSTEM\sys\core_cm7.h
+.\objects\usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart.o: .\SYSTEM\sys\cmsis_compiler.h
+.\objects\usart.o: .\SYSTEM\sys\cmsis_armcc.h
+.\objects\usart.o: .\SYSTEM\sys\system_stm32h7xx.h
+.\objects\usart.o: SYSTEM\usart\usart.h
+.\objects\usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

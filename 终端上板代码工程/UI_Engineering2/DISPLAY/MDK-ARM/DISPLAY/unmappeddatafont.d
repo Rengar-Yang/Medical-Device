@@ -1,0 +1,12 @@
+display\unmappeddatafont.o: ../touchgfx/generated/fonts/src/unmappeddatafont.cpp
+display\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/FlashDataReader.hpp
+display\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
+display\unmappeddatafont.o: D:\keil5\ARM\ARMCC\Bin\..\include\assert.h
+display\unmappeddatafont.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+display\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
+display\unmappeddatafont.o: ../touchgfx/generated/fonts/include/fonts/ApplicationFontProvider.hpp
+display\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/FontManager.hpp
+display\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
+display\unmappeddatafont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
+display\unmappeddatafont.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+display\unmappeddatafont.o: ../touchgfx/generated/fonts/include/fonts/UnmappedDataFont.hpp

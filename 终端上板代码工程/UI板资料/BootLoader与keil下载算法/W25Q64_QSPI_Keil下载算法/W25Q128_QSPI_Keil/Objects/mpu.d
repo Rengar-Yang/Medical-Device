@@ -1,0 +1,13 @@
+.\objects\mpu.o: HARDWARE\MPU\mpu.c
+.\objects\mpu.o: HARDWARE\MPU\mpu.h
+.\objects\mpu.o: .\SYSTEM\sys\sys.h
+.\objects\mpu.o: .\SYSTEM\sys\stm32h7xx.h
+.\objects\mpu.o: .\SYSTEM\sys\stm32h750xx.h
+.\objects\mpu.o: .\SYSTEM\sys\core_cm7.h
+.\objects\mpu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mpu.o: .\SYSTEM\sys\cmsis_compiler.h
+.\objects\mpu.o: .\SYSTEM\sys\cmsis_armcc.h
+.\objects\mpu.o: .\SYSTEM\sys\system_stm32h7xx.h
+.\objects\mpu.o: .\SYSTEM\usart\usart.h
+.\objects\mpu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mpu.o: .\SYSTEM\delay\delay.h

@@ -1,0 +1,1 @@
+.\DISPLAY\DISPLAY.hex -Intel -crop 0x90000000 0x90800000 -o ..\external.hex -Intel

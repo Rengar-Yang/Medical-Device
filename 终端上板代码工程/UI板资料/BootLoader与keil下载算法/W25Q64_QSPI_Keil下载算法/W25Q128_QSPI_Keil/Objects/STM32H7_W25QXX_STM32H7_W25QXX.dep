@@ -1,0 +1,55 @@
+Dependencies for Project 'STM32H7_W25QXX', Target 'STM32H7_W25QXX': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\Abstract.txt)(0x5F1D9658)()
+F (.\FlashPrg.c)(0x621B4876)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --apcs /ropi/rwpi -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\HARDWARE\MPU -I .\HARDWARE\QSPI -I .\SYSTEM -I .\HARDWARE\W25QXX -I ..\QSIP_W25QXX_Template-H7 -I ..\W25Q128_QSPI_Keil…’–¥À„∑®-Id:\Users\qiu\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="536" -DSTM32L431xx-o .\objects\flashprg.o --omf_browse .\objects\flashprg.crf --depend .\objects\flashprg.d)
+I (FlashOS.H)(0x5F1D9658)
+I (.\SYSTEM\sys\sys.h)(0x62225A10)
+I (.\SYSTEM\sys\stm32l431xx.h)(0x62185B93)
+I (.\SYSTEM\sys\core_cm4.h)(0x62185B69)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (.\SYSTEM\sys\cmsis_version.h)(0x62185B6C)
+I (.\SYSTEM\sys\cmsis_compiler.h)(0x62185B69)
+I (.\SYSTEM\sys\cmsis_armcc.h)(0x62185B69)
+I (.\SYSTEM\sys\mpu_armv7.h)(0x62185B6C)
+I (.\SYSTEM\sys\system_stm32l4xx.h)(0x62185B94)
+I (.\SYSTEM\delay\delay.h)(0x5CBC36D0)
+I (.\HARDWARE\W25QXX\norflash.h)(0x5CCD652C)
+I (.\HARDWARE\QSPI\qspi.h)(0x5CCD63A2)
+I (.\SYSTEM\usart\usart.h)(0x5CBC36D0)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+F (.\FlashDev.c)(0x6227387A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --apcs /ropi/rwpi -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\HARDWARE\MPU -I .\HARDWARE\QSPI -I .\SYSTEM -I .\HARDWARE\W25QXX -I ..\QSIP_W25QXX_Template-H7 -I ..\W25Q128_QSPI_Keil…’–¥À„∑®-Id:\Users\qiu\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="536" -DSTM32L431xx-o .\objects\flashdev.o --omf_browse .\objects\flashdev.crf --depend .\objects\flashdev.d)
+I (FlashOS.H)(0x5F1D9658)
+F (.\HARDWARE\QSPI\qspi.c)(0x621AFCC2)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --apcs /ropi/rwpi -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\HARDWARE\MPU -I .\HARDWARE\QSPI -I .\SYSTEM -I .\HARDWARE\W25QXX -I ..\QSIP_W25QXX_Template-H7 -I ..\W25Q128_QSPI_Keil…’–¥À„∑®-Id:\Users\qiu\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="536" -DSTM32L431xx-o .\objects\qspi.o --omf_browse .\objects\qspi.crf --depend .\objects\qspi.d)
+I (HARDWARE\QSPI\qspi.h)(0x5CCD63A2)
+I (.\SYSTEM\sys\sys.h)(0x62225A10)
+I (.\SYSTEM\sys\stm32l431xx.h)(0x62185B93)
+I (.\SYSTEM\sys\core_cm4.h)(0x62185B69)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (.\SYSTEM\sys\cmsis_version.h)(0x62185B6C)
+I (.\SYSTEM\sys\cmsis_compiler.h)(0x62185B69)
+I (.\SYSTEM\sys\cmsis_armcc.h)(0x62185B69)
+I (.\SYSTEM\sys\mpu_armv7.h)(0x62185B6C)
+I (.\SYSTEM\sys\system_stm32l4xx.h)(0x62185B94)
+F (.\HARDWARE\W25QXX\norflash.c)(0x6227387A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --apcs /ropi/rwpi -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\HARDWARE\MPU -I .\HARDWARE\QSPI -I .\SYSTEM -I .\HARDWARE\W25QXX -I ..\QSIP_W25QXX_Template-H7 -I ..\W25Q128_QSPI_Keil…’–¥À„∑®-Id:\Users\qiu\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="536" -DSTM32L431xx-o .\objects\norflash.o --omf_browse .\objects\norflash.crf --depend .\objects\norflash.d)
+I (HARDWARE\W25QXX\norflash.h)(0x5CCD652C)
+I (.\SYSTEM\sys\sys.h)(0x62225A10)
+I (.\SYSTEM\sys\stm32l431xx.h)(0x62185B93)
+I (.\SYSTEM\sys\core_cm4.h)(0x62185B69)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (.\SYSTEM\sys\cmsis_version.h)(0x62185B6C)
+I (.\SYSTEM\sys\cmsis_compiler.h)(0x62185B69)
+I (.\SYSTEM\sys\cmsis_armcc.h)(0x62185B69)
+I (.\SYSTEM\sys\mpu_armv7.h)(0x62185B6C)
+I (.\SYSTEM\sys\system_stm32l4xx.h)(0x62185B94)
+I (.\HARDWARE\QSPI\qspi.h)(0x5CCD63A2)
+I (.\SYSTEM\delay\delay.h)(0x5CBC36D0)
+F (.\SYSTEM\sys\sys.c)(0x621B41FF)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --apcs /ropi/rwpi -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\HARDWARE\MPU -I .\HARDWARE\QSPI -I .\SYSTEM -I .\HARDWARE\W25QXX -I ..\QSIP_W25QXX_Template-H7 -I ..\W25Q128_QSPI_Keil…’–¥À„∑®-Id:\Users\qiu\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="536" -DSTM32L431xx-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (SYSTEM\sys\sys.h)(0x62225A10)
+I (SYSTEM\sys\stm32l431xx.h)(0x62185B93)
+I (SYSTEM\sys\core_cm4.h)(0x62185B69)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (SYSTEM\sys\cmsis_version.h)(0x62185B6C)
+I (SYSTEM\sys\cmsis_compiler.h)(0x62185B69)
+I (SYSTEM\sys\cmsis_armcc.h)(0x62185B69)
+I (SYSTEM\sys\mpu_armv7.h)(0x62185B6C)
+I (SYSTEM\sys\system_stm32l4xx.h)(0x62185B94)

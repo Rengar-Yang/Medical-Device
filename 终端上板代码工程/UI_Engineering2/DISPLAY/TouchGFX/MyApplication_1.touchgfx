@@ -1,0 +1,1374 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 320,
+            "Height": 240,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Container",
+            "Name": "logoTextContainer",
+            "X": 140,
+            "Y": 68,
+            "Width": 40,
+            "Height": 119,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "logoText",
+                "Width": 240,
+                "Height": 52,
+                "RelativeFilename": "logoText.png"
+              }
+            ]
+          },
+          {
+            "Type": "Image",
+            "Name": "logoX",
+            "X": 140,
+            "Y": 68,
+            "Width": 42,
+            "Height": 50,
+            "RelativeFilename": "logoX.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "subtitle",
+            "X": 30,
+            "Y": 139,
+            "Width": 204,
+            "Height": 20,
+            "RelativeFilename": "subtitle.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "Box",
+            "Name": "seperatorLine",
+            "X": -258,
+            "Y": 185,
+            "Width": 258,
+            "Height": 2,
+            "Color": {
+              "Red": 21,
+              "Green": 142,
+              "Blue": 181
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "menuIcon0",
+            "X": 123,
+            "Y": 65,
+            "Width": 74,
+            "Height": 74,
+            "RelativeFilename": "NetWorkDebug.png",
+            "Alpha": 0,
+            "Clickable": true
+          },
+          {
+            "Type": "Button",
+            "Name": "menuLeftButton",
+            "X": 16,
+            "Y": 85,
+            "Width": 16,
+            "Height": 32,
+            "Pressed": "leftArrowDark.png",
+            "Released": "leftArrow.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "Button",
+            "Name": "menuRightButton",
+            "X": 288,
+            "Y": 86,
+            "Width": 16,
+            "Height": 32,
+            "Pressed": "rightArrowDark.png",
+            "Released": "rightArrow.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "Y": -71,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "headline",
+            "Y": 12,
+            "Width": 320,
+            "Height": 32,
+            "TextId": "NetConfig",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 64,
+              "Green": 190,
+              "Blue": 222
+            },
+            "Alpha": 0
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 111,
+            "Y": 147,
+            "Width": 100,
+            "Height": 25,
+            "Visible": false,
+            "TextColor": {
+              "Red": 36,
+              "Green": 44,
+              "Blue": 199
+            },
+            "TextId": "__SingleUse_USK8",
+            "DisplaySeconds": true,
+            "DisplayLeadingZeroForHourIndicator": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "SwitchScreenToImageScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Image"
+            }
+          },
+          {
+            "InteractionName": "SwitchScreenToListScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "List"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "menuLeftButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "leftButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "menuRightButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rightButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "SwitchScreenToScreen2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "SwitchScreenToNetworkMenu",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "NetworkMenu"
+            }
+          },
+          {
+            "InteractionName": "SwitchScreenToDebugWindow",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "DebugWindow"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 320,
+            "Height": 240,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "listBackground.png"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1",
+            "X": 60,
+            "Y": 84,
+            "Width": 201,
+            "Height": 123,
+            "DataSeed": 1693951208,
+            "NumberOfValues": 60,
+            "MaxY": 299.0,
+            "Precision": "0.0001",
+            "LastIndex": 59,
+            "XAxisScale": 1.0,
+            "GraphType": "GraphScroll",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 3,
+                "Color": {
+                  "Red": 30,
+                  "Green": 196,
+                  "Blue": 22
+                }
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 6.0,
+              "LineWidth": 1
+            },
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 30.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 6.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "__SingleUse_39P1",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 30.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "__SingleUse_5809",
+              "TextRotation": "0",
+              "Position": "Left"
+            },
+            "Draggable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 12,
+            "Y": 84,
+            "Width": 28,
+            "Height": 28,
+            "TextId": "__SingleUse_3HOG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 82,
+              "Green": 240,
+              "Blue": 10
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_42LA",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 5,
+            "Y": 120,
+            "Width": 42,
+            "Height": 28,
+            "TextId": "__SingleUse_7LM5",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 82,
+              "Green": 240,
+              "Blue": 10
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_DDR2",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 5,
+            "Y": 156,
+            "Width": 42,
+            "Height": 28,
+            "TextId": "__SingleUse_C15Q",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 82,
+              "Green": 240,
+              "Blue": 10
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_BDZ0",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 273,
+            "Y": 84,
+            "Width": 27,
+            "Height": 28,
+            "TextId": "__SingleUse_RGO7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 82,
+              "Green": 240,
+              "Blue": 10
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_FW75",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 273,
+            "Y": 120,
+            "Width": 26,
+            "Height": 28,
+            "TextId": "__SingleUse_9ICA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 82,
+              "Green": 240,
+              "Blue": 10
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_4Z01",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea6",
+            "X": 275,
+            "Y": 156,
+            "Width": 23,
+            "Height": 28,
+            "TextId": "__SingleUse_AA49",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 82,
+              "Green": 240,
+              "Blue": 10
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_TUFC",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 18,
+            "Y": 11,
+            "Width": 32,
+            "Height": 32,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "headline",
+            "X": 60,
+            "Y": 14,
+            "Width": 220,
+            "Height": 29,
+            "TextId": "__SingleUse_7XKO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 16,
+              "Green": 141,
+              "Blue": 171
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1",
+            "X": 273,
+            "Y": 52,
+            "Width": 25,
+            "Height": 25,
+            "Pressed": "Open.png",
+            "Released": "Close.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton2",
+            "X": 144,
+            "Y": 208,
+            "Width": 32,
+            "Height": 32,
+            "Pressed": "ECG.png",
+            "Released": "Pause.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea7",
+            "X": 251,
+            "Y": 57,
+            "Width": 21,
+            "Height": 14,
+            "TextId": "PostDataBegin",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 222,
+              "Green": 18,
+              "Blue": 25
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "PostDataBegin"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerGraphClicked",
+              "TriggerComponent": "dynamicGraph1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "GraphChanged"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "GraphChanged"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Image",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 320,
+            "Height": 240
+          },
+          {
+            "Type": "Image",
+            "Name": "image",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "image0.png",
+            "Moveable": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "Y": -50,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Button",
+            "Name": "menuLeftButton",
+            "X": 16,
+            "Y": 85,
+            "Width": 16,
+            "Height": 32,
+            "Pressed": "leftArrowDark.png",
+            "Released": "leftArrow.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "menuRightButton",
+            "X": 288,
+            "Y": 86,
+            "Width": 16,
+            "Height": 32,
+            "Pressed": "rightArrowDark.png",
+            "Released": "rightArrow.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 18,
+            "Y": 11,
+            "Width": 32,
+            "Height": 32,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "menuRightButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "rightButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "menuLeftButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "leftButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "List",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "listBackground.png"
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "languageSelectorWheel",
+            "X": 60,
+            "Y": 86,
+            "Width": 200,
+            "Height": 118,
+            "SelectedItemOffset": 40,
+            "UseSelectedStyle": true,
+            "SelectedItemTemplateName": "languageSelectorElementCenter",
+            "IsCircular": true,
+            "ItemTemplateName": "languageSelectorElement",
+            "NumberofItems": 7,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0
+          },
+          {
+            "Type": "TextArea",
+            "Name": "headline",
+            "X": 50,
+            "Y": 14,
+            "Width": 220,
+            "Height": 29,
+            "TextId": "languageHeadline",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 16,
+              "Green": 141,
+              "Blue": 171
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 18,
+            "Y": 11,
+            "Width": 32,
+            "Height": 32,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "NetworkMenu",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "listBackground.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "headline",
+            "X": 50,
+            "Y": 14,
+            "Width": 220,
+            "Height": 29,
+            "TextId": "NetworkHeadline",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 16,
+              "Green": 141,
+              "Blue": 171
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 18,
+            "Y": 11,
+            "Width": 32,
+            "Height": 32,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "ScrollList",
+            "Name": "FunctionList",
+            "X": 60,
+            "Y": 86,
+            "Width": 200,
+            "Height": 120,
+            "IsHorizontal": true,
+            "IsCircular": true,
+            "ItemTemplateName": "NetworkList",
+            "NumberofItems": 3,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "notification1",
+            "X": 35,
+            "Y": 57,
+            "Width": 250,
+            "Height": 160,
+            "Visible": false,
+            "CustomContainerDefinitionName": "Notification"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "DebugWindow",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 320,
+            "Height": 240,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1",
+            "X": 49,
+            "Y": -13,
+            "Width": 265,
+            "Height": 268,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 14,
+              "Green": 187,
+              "Blue": 235
+            },
+            "BorderSize": 3
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollableContainer1",
+            "Width": 320,
+            "Height": 240,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "textArea1",
+                "X": 55,
+                "Y": 13,
+                "Width": 253,
+                "Height": 731,
+                "TextId": "__SingleUse_X1H4",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 4096
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 4,
+            "Y": 13,
+            "Width": 32,
+            "Height": 32,
+            "Pressed": "goback.png",
+            "Released": "goback.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 12,
+            "Y": 54,
+            "Width": 105,
+            "Height": 27,
+            "TextId": "NetConfig",
+            "TextRotation": "90",
+            "Color": {
+              "Red": 16,
+              "Green": 146,
+              "Blue": 227
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "languageSelectorElement",
+        "Width": 200,
+        "Height": 40,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 200,
+            "Height": 39,
+            "Color": {
+              "Red": 232,
+              "Green": 243,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "verticalLine",
+            "Y": 39,
+            "Width": 200,
+            "Height": 1,
+            "Color": {
+              "Red": 16,
+              "Green": 41,
+              "Blue": 55
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "flagImage",
+            "X": 13,
+            "Y": 9,
+            "Width": 32,
+            "Height": 24,
+            "RelativeFilename": "flags\\denmark-flag-small.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "languageText",
+            "X": 55,
+            "Y": 9,
+            "Width": 129,
+            "Height": 24,
+            "TextId": "language0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 16,
+              "Green": 141,
+              "Blue": 171
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "languageSelectorElementCenter",
+        "Width": 200,
+        "Height": 40,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 200,
+            "Height": 39,
+            "Color": {
+              "Red": 158,
+              "Green": 180,
+              "Blue": 203
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "verticalLine",
+            "Y": 39,
+            "Width": 200,
+            "Height": 1,
+            "Color": {
+              "Red": 16,
+              "Green": 41,
+              "Blue": 55
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "flagImage",
+            "X": 13,
+            "Y": 9,
+            "Width": 32,
+            "Height": 24,
+            "RelativeFilename": "flags\\denmark-flag-small.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "languageText",
+            "X": 55,
+            "Y": 9,
+            "Width": 129,
+            "Height": 24,
+            "TextId": "language0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 44,
+              "Green": 69,
+              "Blue": 75
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "NetSelectorElementCenter",
+        "Width": 200,
+        "Height": 40,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 200,
+            "Height": 39,
+            "Color": {
+              "Red": 158,
+              "Green": 180,
+              "Blue": 203
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "verticalLine",
+            "Y": 39,
+            "Width": 200,
+            "Height": 1,
+            "Color": {
+              "Red": 16,
+              "Green": 41,
+              "Blue": 55
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "FunctionLogo",
+            "X": 13,
+            "Y": 6,
+            "Width": 30,
+            "Height": 30,
+            "RelativeFilename": "NetworkIcon\\WIFI.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FunctionName",
+            "X": 55,
+            "Y": 9,
+            "Width": 129,
+            "Height": 24,
+            "TextId": "WIFI",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 44,
+              "Green": 69,
+              "Blue": 75
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "NetSelectorElement",
+        "Width": 200,
+        "Height": 40,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 200,
+            "Height": 39,
+            "Color": {
+              "Red": 232,
+              "Green": 243,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "verticalLine",
+            "Y": 39,
+            "Width": 200,
+            "Height": 1,
+            "Color": {
+              "Red": 16,
+              "Green": 41,
+              "Blue": 55
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "FunctionLogo",
+            "X": 13,
+            "Y": 6,
+            "Width": 30,
+            "Height": 30,
+            "RelativeFilename": "NetworkIcon\\WIFI.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FunctionName",
+            "X": 55,
+            "Y": 9,
+            "Width": 129,
+            "Height": 24,
+            "TextId": "WIFI",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 16,
+              "Green": 141,
+              "Blue": 171
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "NetworkList",
+        "X": 20,
+        "Y": 109,
+        "Width": 200,
+        "Height": 120,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 201,
+            "Height": 120,
+            "Color": {
+              "Red": 232,
+              "Green": 243,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "FunctionLogo",
+            "X": 68,
+            "Y": 30,
+            "Width": 64,
+            "Height": 64,
+            "RelativeFilename": "NetworkIcon\\WIFIBig.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FunctionName",
+            "X": 60,
+            "Y": 94,
+            "Width": 82,
+            "Height": 26,
+            "TextId": "WIFI",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 16,
+              "Green": 141,
+              "Blue": 171
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 3,
+            "Height": 120,
+            "Color": {
+              "Red": 5,
+              "Green": 4,
+              "Blue": 4
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "X": 197,
+            "Width": 3,
+            "Height": 120,
+            "Color": {
+              "Red": 8,
+              "Green": 2,
+              "Blue": 2
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Notification",
+        "Y": 90,
+        "Width": 250,
+        "Height": 160,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 250,
+            "Height": 160,
+            "Color": {
+              "Red": 17,
+              "Green": 109,
+              "Blue": 194
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "OK",
+            "X": 40,
+            "Y": 100,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_small.png",
+            "TextId": "__SingleUse_CBAD",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Style": "Style8"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea",
+            "X": 12,
+            "Y": 33,
+            "Width": 226,
+            "Height": 27,
+            "TextId": "NetworkTimeGet",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "OKButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "OK"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "OKButtonClicked"
+            }
+          }
+        ]
+      }
+    ],
+    "Name": "Application",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "ApplicationTemplateName": "STM32G081B",
+    "ApplicationTemplateVersion": "1.0.0",
+    "ApplicationTemplateDescription": "STM32G081B Application Template",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": false
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommandOverride": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../DISPLAY.ioc --platform=m4",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "",
+    "FlashTargetCommand": "",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32L4"
+  },
+  "Version": "4.18.1",
+  "CreatedBy": "4.11.0"
+}

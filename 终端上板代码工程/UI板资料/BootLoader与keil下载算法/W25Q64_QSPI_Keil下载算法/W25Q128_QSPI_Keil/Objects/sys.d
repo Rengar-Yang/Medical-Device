@@ -1,0 +1,10 @@
+.\objects\sys.o: SYSTEM\sys\sys.c
+.\objects\sys.o: SYSTEM\sys\sys.h
+.\objects\sys.o: SYSTEM\sys\stm32l431xx.h
+.\objects\sys.o: SYSTEM\sys\core_cm4.h
+.\objects\sys.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sys.o: SYSTEM\sys\cmsis_version.h
+.\objects\sys.o: SYSTEM\sys\cmsis_compiler.h
+.\objects\sys.o: SYSTEM\sys\cmsis_armcc.h
+.\objects\sys.o: SYSTEM\sys\mpu_armv7.h
+.\objects\sys.o: SYSTEM\sys\system_stm32l4xx.h

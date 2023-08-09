@@ -1,0 +1,11 @@
+.\objects\qspi.o: HARDWARE\QSPI\qspi.c
+.\objects\qspi.o: HARDWARE\QSPI\qspi.h
+.\objects\qspi.o: .\SYSTEM\sys\sys.h
+.\objects\qspi.o: .\SYSTEM\sys\stm32l431xx.h
+.\objects\qspi.o: .\SYSTEM\sys\core_cm4.h
+.\objects\qspi.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\qspi.o: .\SYSTEM\sys\cmsis_version.h
+.\objects\qspi.o: .\SYSTEM\sys\cmsis_compiler.h
+.\objects\qspi.o: .\SYSTEM\sys\cmsis_armcc.h
+.\objects\qspi.o: .\SYSTEM\sys\mpu_armv7.h
+.\objects\qspi.o: .\SYSTEM\sys\system_stm32l4xx.h

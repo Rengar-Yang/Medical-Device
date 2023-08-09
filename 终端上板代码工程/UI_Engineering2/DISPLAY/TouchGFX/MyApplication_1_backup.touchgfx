@@ -1,0 +1,661 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 320,
+            "Height": 240,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Container",
+            "Name": "logoTextContainer",
+            "X": 140,
+            "Y": 68,
+            "Width": 40,
+            "Height": 119,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "logoText",
+                "Width": 240,
+                "Height": 52,
+                "RelativeFilename": "logo_00.png"
+              }
+            ]
+          },
+          {
+            "Type": "Image",
+            "Name": "logoX",
+            "X": 140,
+            "Y": 68,
+            "Width": 40,
+            "Height": 52,
+            "RelativeFilename": "logo_01.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "subtitle",
+            "X": 47,
+            "Y": 139,
+            "Width": 204,
+            "Height": 20,
+            "RelativeFilename": "subtitle071.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "Box",
+            "Name": "seperatorLine",
+            "X": -258,
+            "Y": 185,
+            "Width": 258,
+            "Height": 2,
+            "Color": {
+              "Red": 21,
+              "Green": 142,
+              "Blue": 181
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "menuIcon0",
+            "X": 123,
+            "Y": 65,
+            "Width": 74,
+            "Height": 74,
+            "RelativeFilename": "subDemoIcon_Info.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "Image",
+            "Name": "menuLeftArrow",
+            "X": 16,
+            "Y": 85,
+            "Width": 18,
+            "Height": 33,
+            "RelativeFilename": "leftArrow.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "Image",
+            "Name": "menuRightArrow",
+            "X": 288,
+            "Y": 86,
+            "Width": 18,
+            "Height": 33,
+            "RelativeFilename": "rightArrow.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "Y": -64,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "headline",
+            "Y": 12,
+            "Width": 320,
+            "Height": 32,
+            "TextId": "menu_headline",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 64,
+              "Green": 190,
+              "Blue": 222
+            },
+            "Alpha": 0
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "SwitchScreenToInfoScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Info"
+            }
+          },
+          {
+            "InteractionName": "SwitchScreenToImageScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Image"
+            }
+          },
+          {
+            "InteractionName": "SwitchScreenToListScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "List"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Info",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 320,
+            "Height": 240,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "imgBackground",
+            "Width": 320,
+            "Height": 176,
+            "RelativeFilename": "infoBackground.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Y": 173,
+            "Width": 320,
+            "Height": 67,
+            "RelativeFilename": "infoBackground2.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "flagContainer",
+            "X": 10,
+            "Y": 184,
+            "Width": 300,
+            "Height": 48,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "flagMenuBackground",
+                "Width": 300,
+                "Height": 48,
+                "RelativeFilename": "flagsDimmed.png"
+              },
+              {
+                "Type": "Container",
+                "Name": "flagSelectedContainer",
+                "Width": 73,
+                "Height": 48,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "flagMenuForeground",
+                    "Width": 300,
+                    "Height": 48,
+                    "RelativeFilename": "flags.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "headline",
+            "X": 25,
+            "Y": 16,
+            "Width": 276,
+            "Height": 41,
+            "TextId": "ResourceId1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 17,
+              "Green": 141,
+              "Blue": 172
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "Y": -67,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "infoText",
+            "X": 25,
+            "Y": 57,
+            "Width": 276,
+            "Height": 96,
+            "TextId": "infoText",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Image",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 320,
+            "Height": 240
+          },
+          {
+            "Type": "Image",
+            "Name": "image",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "image0.png",
+            "Moveable": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "Y": -64,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Image",
+            "Name": "joystickOverlay",
+            "X": 46,
+            "Y": 57,
+            "Width": 229,
+            "Height": 126,
+            "RelativeFilename": "joystick_overlay.png",
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "joystickText",
+            "X": 139,
+            "Y": 76,
+            "Width": 126,
+            "Height": 90,
+            "TextId": "joystickNote",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "joystickTextShadow",
+            "X": 138,
+            "Y": 75,
+            "Width": 126,
+            "Height": 90,
+            "TextId": "joystickNote",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 17,
+              "Green": 141,
+              "Blue": 172
+            },
+            "AutoSize": true,
+            "Fadeable": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "List",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "listBackground.png"
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "languageSelectorWheel",
+            "X": 60,
+            "Y": 86,
+            "Width": 200,
+            "Height": 118,
+            "SelectedItemOffset": 40,
+            "UseSelectedStyle": true,
+            "SelectedItemTemplateName": "languageSelectorElementCenter",
+            "IsCircular": true,
+            "ItemTemplateName": "languageSelectorElement",
+            "NumberofItems": 7,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0
+          },
+          {
+            "Type": "TextArea",
+            "Name": "headline",
+            "X": 50,
+            "Y": 14,
+            "Width": 220,
+            "Height": 29,
+            "TextId": "languageHeadline",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 16,
+              "Green": 141,
+              "Blue": 171
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "languageSelectorElement",
+        "Width": 200,
+        "Height": 40,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 200,
+            "Height": 39,
+            "Color": {
+              "Red": 232,
+              "Green": 243,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "verticalLine",
+            "Y": 39,
+            "Width": 200,
+            "Height": 1,
+            "Color": {
+              "Red": 16,
+              "Green": 41,
+              "Blue": 55
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "flagImage",
+            "X": 13,
+            "Y": 9,
+            "Width": 32,
+            "Height": 24,
+            "RelativeFilename": "flags\\denmark-flag-small.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "languageText",
+            "X": 55,
+            "Y": 9,
+            "Width": 129,
+            "Height": 24,
+            "TextId": "language0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 16,
+              "Green": 141,
+              "Blue": 171
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "languageSelectorElementCenter",
+        "Width": 200,
+        "Height": 40,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 200,
+            "Height": 39,
+            "Color": {
+              "Red": 158,
+              "Green": 180,
+              "Blue": 203
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "verticalLine",
+            "Y": 39,
+            "Width": 200,
+            "Height": 1,
+            "Color": {
+              "Red": 16,
+              "Green": 41,
+              "Blue": 55
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "flagImage",
+            "X": 13,
+            "Y": 9,
+            "Width": 32,
+            "Height": 24,
+            "RelativeFilename": "flags\\denmark-flag-small.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "languageText",
+            "X": 55,
+            "Y": 9,
+            "Width": 129,
+            "Height": 24,
+            "TextId": "language0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 44,
+              "Green": 69,
+              "Blue": 75
+            }
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "Application",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "ApplicationTemplateName": "STM32G081B",
+    "ApplicationTemplateVersion": "1.0.0",
+    "ApplicationTemplateDescription": "STM32G081B Application Template",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": false
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj && touchgfx update_project --project-file=../EWARM/NUCLEO-G071RB.ewp",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../DISPLAY.ioc --platform=m4",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "",
+    "FlashTargetCommand": "",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32L4"
+  },
+  "Version": "4.18.1",
+  "CreatedBy": "4.11.0"
+}

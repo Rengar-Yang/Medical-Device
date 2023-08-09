@@ -1,0 +1,10 @@
+display\generatedfont.o: ../touchgfx/generated/fonts/src/generatedfont.cpp
+display\generatedfont.o: ../touchgfx/generated/fonts/include/fonts/GeneratedFont.hpp
+display\generatedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/ConstFont.hpp
+display\generatedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
+display\generatedfont.o: D:\keil5\ARM\ARMCC\Bin\..\include\assert.h
+display\generatedfont.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+display\generatedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
+display\generatedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
+display\generatedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
+display\generatedfont.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h

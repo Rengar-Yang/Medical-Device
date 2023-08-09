@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.18.0">
+  <Texts>
+    <Text Id="ResourceId1" TypographyId="small" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">UI Demo on</Translation>
+      <Translation Language="KR" TypographyId="koreanSmall">UI 데모</Translation>
+      <Translation Language="CN" TypographyId="JP_CN_small">UI演示运行环境</Translation>
+      <Translation Language="JP" TypographyId="JP_CN_small">UIデモの環境</Translation>
+      <Translation Language="DK">UI Demo on</Translation>
+      <Translation Language="FR">UI Demo on</Translation>
+      <Translation Language="TN">UI Demo on</Translation>
+    </Text>
+    <Text Id="menu_headline" TypographyId="small" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Touch to Navigate</Translation>
+      <Translation Language="KR" TypographyId="koreanTiny">조이스틱을 사용하여 탐색하세요.</Translation>
+      <Translation Language="CN" TypographyId="JP_CN_small">触摸来控制</Translation>
+      <Translation Language="JP" TypographyId="JP_CN_tiny">ジョイスティックを使用して操作する</Translation>
+      <Translation Language="DK">Brug Joystick til at Navigere</Translation>
+      <Translation Language="FR">Utiliser le joystick</Translation>
+      <Translation Language="TN" TypographyId="arabicTiny">استخدام عصا التحكم للتنقل</Translation>
+    </Text>
+    <Text Id="joystickNote" TypographyId="tiny" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Touch to&#10;Navigate Images&#10;&#10;Click it to go back&#10;to the menu</Translation>
+      <Translation Language="KR">Touch to&#10;Navigate Images&#10;&#10;Click it to go back&#10;to the menu</Translation>
+      <Translation Language="CN">Touch to&#10;Navigate Images&#10;&#10;Click it to go back&#10;to the menu</Translation>
+      <Translation Language="JP">Touch to&#10;Navigate Images&#10;&#10;Click it to go back&#10;to the menu</Translation>
+      <Translation Language="DK">Brug Joystick til at&#10;skifte billeder&#10;&#10;Klik på joysticket &#10;for at gå til menu</Translation>
+      <Translation Language="FR">Use Joystick to&#10;Navigate Images&#10;&#10;Click it to go back&#10;to the menu</Translation>
+      <Translation Language="TN">Use Joystick to&#10;Navigate Images&#10;&#10;Click it to go back&#10;to the menu</Translation>
+    </Text>
+    <Text Id="language0" TypographyId="tiny" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Dansk</Translation>
+      <Translation Language="KR">Dansk</Translation>
+      <Translation Language="CN">Dansk</Translation>
+      <Translation Language="JP">Dansk</Translation>
+      <Translation Language="DK">Dansk</Translation>
+      <Translation Language="FR">Dansk</Translation>
+      <Translation Language="TN">Dansk</Translation>
+    </Text>
+    <Text Id="languageHeadline" TypographyId="small" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Select Language</Translation>
+      <Translation Language="KR" TypographyId="koreanSmall">언어 선택</Translation>
+      <Translation Language="CN" TypographyId="JP_CN_small">选择语言</Translation>
+      <Translation Language="JP" TypographyId="JP_CN_small">言語選択</Translation>
+      <Translation Language="DK">Vælg Sprog</Translation>
+      <Translation Language="FR">Selection de la langue</Translation>
+      <Translation Language="TN" TypographyId="arabicTiny">إختيار اللغة</Translation>
+    </Text>
+    <Text Id="language1" TypographyId="tiny" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Deutsch</Translation>
+      <Translation Language="KR">Deutsch</Translation>
+      <Translation Language="CN">Deutsch</Translation>
+      <Translation Language="JP">Deutsch</Translation>
+      <Translation Language="DK">Deutsch</Translation>
+      <Translation Language="FR">Deutsch</Translation>
+      <Translation Language="TN">Deutsch</Translation>
+    </Text>
+    <Text Id="language2" TypographyId="tiny" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Français</Translation>
+      <Translation Language="KR">Français</Translation>
+      <Translation Language="CN">Français</Translation>
+      <Translation Language="JP">Français</Translation>
+      <Translation Language="DK">Français</Translation>
+      <Translation Language="FR">Français</Translation>
+      <Translation Language="TN">Français</Translation>
+    </Text>
+    <Text Id="language3" TypographyId="koreanTiny" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">한국어</Translation>
+      <Translation Language="KR">한국어</Translation>
+      <Translation Language="CN">한국어</Translation>
+      <Translation Language="JP">한국어</Translation>
+      <Translation Language="DK">한국어</Translation>
+      <Translation Language="FR">한국어</Translation>
+      <Translation Language="TN">한국어</Translation>
+    </Text>
+    <Text Id="language4" TypographyId="JP_CN_tiny" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">中文</Translation>
+      <Translation Language="KR">中文</Translation>
+      <Translation Language="CN">中文</Translation>
+      <Translation Language="JP">中文</Translation>
+      <Translation Language="DK">中文</Translation>
+      <Translation Language="FR">中文</Translation>
+      <Translation Language="TN">中文</Translation>
+    </Text>
+    <Text Id="language5" TypographyId="tiny" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">English</Translation>
+      <Translation Language="KR">English</Translation>
+      <Translation Language="CN">English</Translation>
+      <Translation Language="JP">English</Translation>
+      <Translation Language="DK">English</Translation>
+      <Translation Language="FR">English</Translation>
+      <Translation Language="TN">English</Translation>
+    </Text>
+    <Text Id="language6" TypographyId="JP_CN_tiny" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">日本語</Translation>
+      <Translation Language="KR">日本語</Translation>
+      <Translation Language="CN">日本語</Translation>
+      <Translation Language="JP">日本語</Translation>
+      <Translation Language="DK">日本語</Translation>
+      <Translation Language="FR">日本語</Translation>
+      <Translation Language="TN">日本語</Translation>
+    </Text>
+    <Text Id="language7" TypographyId="arabicTiny" Alignment="Left" Direction="RTL">
+      <Translation Language="GB">العربية</Translation>
+      <Translation Language="KR">العربية</Translation>
+      <Translation Language="CN">العربية</Translation>
+      <Translation Language="JP">العربية</Translation>
+      <Translation Language="DK">العربية</Translation>
+      <Translation Language="FR">العربية</Translation>
+      <Translation Language="TN">العربية</Translation>
+    </Text>
+    <Text Id="__SingleUse_3HOG" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">HUMI&#10;&lt;&gt;</Translation>
+      <Translation Language="KR">HUMI&#10;   &lt;&gt;</Translation>
+      <Translation Language="CN">湿度&#10;   &lt;&gt;</Translation>
+      <Translation Language="JP">HUMI&#10;   &lt;&gt;</Translation>
+      <Translation Language="DK">HUMI&#10;   &lt;&gt;</Translation>
+      <Translation Language="FR">HUMI&#10;   &lt;&gt;</Translation>
+      <Translation Language="TN">HUMI&#10;   &lt;&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_42LA" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">0</Translation>
+      <Translation Language="KR">-</Translation>
+      <Translation Language="CN">-</Translation>
+      <Translation Language="JP">-</Translation>
+      <Translation Language="DK">-</Translation>
+      <Translation Language="FR">-</Translation>
+      <Translation Language="TN">-</Translation>
+    </Text>
+    <Text Id="__SingleUse_7LM5" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">HR&#10;      &lt;&gt;      </Translation>
+      <Translation Language="KR">HR&#10; &lt;&gt;      </Translation>
+      <Translation Language="CN">心率&#10;   &lt;&gt;</Translation>
+      <Translation Language="JP">HR&#10; &lt;&gt;      </Translation>
+      <Translation Language="DK">HR&#10; &lt;&gt;      </Translation>
+      <Translation Language="FR">HR&#10; &lt;&gt;      </Translation>
+      <Translation Language="TN">HR&#10; &lt;&gt;      </Translation>
+    </Text>
+    <Text Id="__SingleUse_DDR2" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">0</Translation>
+      <Translation Language="KR">-</Translation>
+      <Translation Language="CN">-</Translation>
+      <Translation Language="JP">-</Translation>
+      <Translation Language="DK">-</Translation>
+      <Translation Language="FR">-</Translation>
+      <Translation Language="TN">-</Translation>
+    </Text>
+    <Text Id="__SingleUse_C15Q" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">SPO2&#10;      &lt;&gt;      </Translation>
+      <Translation Language="KR">SPO2&#10;   &lt;&gt;      </Translation>
+      <Translation Language="CN">血氧&#10;   &lt;&gt;</Translation>
+      <Translation Language="JP">SPO2&#10;   &lt;&gt;      </Translation>
+      <Translation Language="DK">SPO2&#10;   &lt;&gt;      </Translation>
+      <Translation Language="FR">SPO2&#10;   &lt;&gt;      </Translation>
+      <Translation Language="TN">SPO2&#10;   &lt;&gt;      </Translation>
+    </Text>
+    <Text Id="__SingleUse_BDZ0" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">0</Translation>
+      <Translation Language="KR">-</Translation>
+      <Translation Language="CN">-</Translation>
+      <Translation Language="JP">-</Translation>
+      <Translation Language="DK">-</Translation>
+      <Translation Language="FR">-</Translation>
+      <Translation Language="TN">-</Translation>
+    </Text>
+    <Text Id="__SingleUse_RGO7" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">TEMP&#10;&lt;&gt;</Translation>
+      <Translation Language="KR">TEMP&#10;   &lt;&gt;</Translation>
+      <Translation Language="CN">温度&#10;   &lt;&gt;</Translation>
+      <Translation Language="JP">TEMP&#10;   &lt;&gt;</Translation>
+      <Translation Language="DK">TEMP&#10;   &lt;&gt;</Translation>
+      <Translation Language="FR">TEMP&#10;   &lt;&gt;</Translation>
+      <Translation Language="TN">TEMP&#10;   &lt;&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_FW75" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">0</Translation>
+      <Translation Language="KR">-</Translation>
+      <Translation Language="CN">-</Translation>
+      <Translation Language="JP">-</Translation>
+      <Translation Language="DK">-</Translation>
+      <Translation Language="FR">-</Translation>
+      <Translation Language="TN">-</Translation>
+    </Text>
+    <Text Id="__SingleUse_9ICA" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">HR_V&#10; &lt;&gt;</Translation>
+      <Translation Language="KR">HR_V&#10;   &lt;&gt;</Translation>
+      <Translation Language="CN">心率验证&#10;   &lt;&gt;</Translation>
+      <Translation Language="JP">HR_V&#10;   &lt;&gt;</Translation>
+      <Translation Language="DK">HR_V&#10;   &lt;&gt;</Translation>
+      <Translation Language="FR">HR_V&#10;   &lt;&gt;</Translation>
+      <Translation Language="TN">HR_V&#10;   &lt;&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_4Z01" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">0</Translation>
+      <Translation Language="KR">-</Translation>
+      <Translation Language="CN">-</Translation>
+      <Translation Language="JP">-</Translation>
+      <Translation Language="DK">-</Translation>
+      <Translation Language="FR">-</Translation>
+      <Translation Language="TN">-</Translation>
+    </Text>
+    <Text Id="__SingleUse_AA49" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">SP_V&#10; &lt;&gt;</Translation>
+      <Translation Language="KR">SP_V&#10;   &lt;&gt;</Translation>
+      <Translation Language="CN">血氧验证&#10;   &lt;&gt;</Translation>
+      <Translation Language="JP">SP_V&#10;   &lt;&gt;</Translation>
+      <Translation Language="DK">SP_V&#10;   &lt;&gt;</Translation>
+      <Translation Language="FR">SP_V&#10;   &lt;&gt;</Translation>
+      <Translation Language="TN">SP_V&#10;   &lt;&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_TUFC" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">0</Translation>
+      <Translation Language="KR">-</Translation>
+      <Translation Language="CN">-</Translation>
+      <Translation Language="JP">-</Translation>
+      <Translation Language="DK">-</Translation>
+      <Translation Language="FR">-</Translation>
+      <Translation Language="TN">-</Translation>
+    </Text>
+    <Text Id="__SingleUse_7XKO" TypographyId="small" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Health Diagnose</Translation>
+      <Translation Language="KR">New Text</Translation>
+      <Translation Language="CN">健康检查</Translation>
+      <Translation Language="JP">New Text</Translation>
+      <Translation Language="DK">New Text</Translation>
+      <Translation Language="FR">New Text</Translation>
+      <Translation Language="TN">New Text</Translation>
+    </Text>
+    <Text Id="__SingleUse_USK8" TypographyId="small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;&gt;</Translation>
+      <Translation Language="KR">&lt;&gt;</Translation>
+      <Translation Language="CN">&lt;&gt;</Translation>
+      <Translation Language="JP">&lt;&gt;</Translation>
+      <Translation Language="DK">&lt;&gt;</Translation>
+      <Translation Language="FR">&lt;&gt;</Translation>
+      <Translation Language="TN">&lt;&gt;</Translation>
+    </Text>
+    <Text Id="NetworkTime" TypographyId="tiny" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Download Time</Translation>
+      <Translation Language="KR">New Text</Translation>
+      <Translation Language="CN">下载网络时间</Translation>
+      <Translation Language="JP">New Text</Translation>
+      <Translation Language="DK">New Text</Translation>
+      <Translation Language="FR">New Text</Translation>
+      <Translation Language="TN">New Text</Translation>
+    </Text>
+    <Text Id="WIFI" TypographyId="tiny" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Connect to WiFi</Translation>
+      <Translation Language="KR">New Text</Translation>
+      <Translation Language="CN">连接WIFI</Translation>
+      <Translation Language="JP">New Text</Translation>
+      <Translation Language="DK">New Text</Translation>
+      <Translation Language="FR">New Text</Translation>
+      <Translation Language="TN">New Text</Translation>
+    </Text>
+    <Text Id="Update" TypographyId="tiny" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Update Data</Translation>
+      <Translation Language="KR">New Text</Translation>
+      <Translation Language="CN">上传数据</Translation>
+      <Translation Language="JP">New Text</Translation>
+      <Translation Language="DK">New Text</Translation>
+      <Translation Language="FR">New Text</Translation>
+      <Translation Language="TN">New Text</Translation>
+    </Text>
+    <Text Id="NetworkHeadline" TypographyId="small" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Select Function</Translation>
+      <Translation Language="KR">New Text</Translation>
+      <Translation Language="CN">选择功能</Translation>
+      <Translation Language="JP">New Text</Translation>
+      <Translation Language="DK">New Text</Translation>
+      <Translation Language="FR">New Text</Translation>
+      <Translation Language="TN">New Text</Translation>
+    </Text>
+    <Text Id="__SingleUse_CBAD" TypographyId="small" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">OK</Translation>
+      <Translation Language="KR">New Text</Translation>
+      <Translation Language="CN">New Text</Translation>
+      <Translation Language="JP">New Text</Translation>
+      <Translation Language="DK">New Text</Translation>
+      <Translation Language="FR">New Text</Translation>
+      <Translation Language="TN">New Text</Translation>
+    </Text>
+    <Text Id="NetworkTimeGet" TypographyId="small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Time has been updated</Translation>
+      <Translation Language="KR">New Text</Translation>
+      <Translation Language="CN">时间已更新</Translation>
+      <Translation Language="JP">New Text</Translation>
+      <Translation Language="DK">New Text</Translation>
+      <Translation Language="FR">New Text</Translation>
+      <Translation Language="TN">New Text</Translation>
+    </Text>
+    <Text Id="__SingleUse_39P1" TypographyId="tiny" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;&gt;</Translation>
+      <Translation Language="KR">&lt;&gt;</Translation>
+      <Translation Language="CN">&lt;&gt;</Translation>
+      <Translation Language="JP">&lt;&gt;</Translation>
+      <Translation Language="DK">&lt;&gt;</Translation>
+      <Translation Language="FR">&lt;&gt;</Translation>
+      <Translation Language="TN">&lt;&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_5809" TypographyId="tiny" Alignment="Right" Direction="LTR">
+      <Translation Language="GB">&lt;&gt;</Translation>
+      <Translation Language="KR">&lt;&gt;</Translation>
+      <Translation Language="CN">&lt;&gt;</Translation>
+      <Translation Language="JP">&lt;&gt;</Translation>
+      <Translation Language="DK">&lt;&gt;</Translation>
+      <Translation Language="FR">&lt;&gt;</Translation>
+      <Translation Language="TN">&lt;&gt;</Translation>
+    </Text>
+    <Text Id="NetConfig" TypographyId="small" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Net Config</Translation>
+      <Translation Language="KR">New Text</Translation>
+      <Translation Language="CN">网络配置</Translation>
+      <Translation Language="JP">New Text</Translation>
+      <Translation Language="DK">New Text</Translation>
+      <Translation Language="FR">New Text</Translation>
+      <Translation Language="TN">New Text</Translation>
+    </Text>
+    <Text Id="LanguageSelect" TypographyId="small" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Language Select</Translation>
+      <Translation Language="KR">New Text</Translation>
+      <Translation Language="CN">选择语言</Translation>
+      <Translation Language="JP">New Text</Translation>
+      <Translation Language="DK">New Text</Translation>
+      <Translation Language="FR">New Text</Translation>
+      <Translation Language="TN">New Text</Translation>
+    </Text>
+    <Text Id="HealthDiagnose" TypographyId="small" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Health Diagnose</Translation>
+      <Translation Language="KR">New Text</Translation>
+      <Translation Language="CN">健康检测</Translation>
+      <Translation Language="JP">New Text</Translation>
+      <Translation Language="DK">New Text</Translation>
+      <Translation Language="FR">New Text</Translation>
+      <Translation Language="TN">New Text</Translation>
+    </Text>
+    <Text Id="NetFunction" TypographyId="small" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Net Function</Translation>
+      <Translation Language="KR">New Text</Translation>
+      <Translation Language="CN">网络功能</Translation>
+      <Translation Language="JP">New Text</Translation>
+      <Translation Language="DK">New Text</Translation>
+      <Translation Language="FR">New Text</Translation>
+      <Translation Language="TN">New Text</Translation>
+    </Text>
+    <Text Id="__SingleUse_X1H4" TypographyId="debug" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+      <Translation Language="KR">&lt;value&gt;</Translation>
+      <Translation Language="CN">&lt;value&gt;</Translation>
+      <Translation Language="JP">&lt;value&gt;</Translation>
+      <Translation Language="DK">&lt;value&gt;</Translation>
+      <Translation Language="FR">&lt;value&gt;</Translation>
+      <Translation Language="TN">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="PostDataBegin" TypographyId="tiny" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Post</Translation>
+      <Translation Language="KR">New Text</Translation>
+      <Translation Language="CN">上传</Translation>
+      <Translation Language="JP">New Text</Translation>
+      <Translation Language="DK">New Text</Translation>
+      <Translation Language="FR">New Text</Translation>
+      <Translation Language="TN">New Text</Translation>
+    </Text>
+  </Texts>
+  <Typographies>
+    <Typography Id="small" Font="chinese.msyh.ttf" Size="20" Bpp="4" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" />
+    <Typography Id="tiny" Font="chinese.msyh.ttf" Size="10" Bpp="4" FallbackCharacter="?" WildcardCharacters="-" WidgetWildcardCharacters="-., 0123456789" WildcardCharacterRanges="0-9" />
+    <Typography Id="koreanTiny" Font="NanumGothic.ttf" Size="14" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="arabicTiny" Font="Amiri-Regular.ttf" Size="18" Bpp="2" FallbackCharacter="?" />
+    <Typography Id="koreanSmall" Font="NanumGothic.ttf" Size="20" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="koreanNormal" Font="NanumGothic.ttf" Size="30" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="JP_CN_small" Font="chinese.msyh.ttf" Size="20" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="JP_CN_tiny" Font="chinese.msyh.ttf" Size="14" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="arabicSmall" Font="Amiri-Regular.ttf" Size="22" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="debug" Font="chinese.msyh.ttf" Size="20" Bpp="4" FallbackCharacter="?" WildcardCharacters="!”&quot;#*%&amp;()'$+-@_, .:;?/~±×÷•º`´{}©£€^®¥_=[]¡¢|\¿&gt;&lt;【】；‘’，。、｛｝：“”《》？|·~！@#￥%……&amp;*（）——+" WildcardCharacterRanges="0x20-0x1BF" />
+  </Typographies>
+</TextDatabase>

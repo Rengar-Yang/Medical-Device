@@ -1,0 +1,11 @@
+.\objects\delay.o: SYSTEM\delay\delay.c
+.\objects\delay.o: SYSTEM\delay\delay.h
+.\objects\delay.o: .\SYSTEM\sys\sys.h
+.\objects\delay.o: .\SYSTEM\sys\stm32l431xx.h
+.\objects\delay.o: .\SYSTEM\sys\core_cm4.h
+.\objects\delay.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\delay.o: .\SYSTEM\sys\cmsis_version.h
+.\objects\delay.o: .\SYSTEM\sys\cmsis_compiler.h
+.\objects\delay.o: .\SYSTEM\sys\cmsis_armcc.h
+.\objects\delay.o: .\SYSTEM\sys\mpu_armv7.h
+.\objects\delay.o: .\SYSTEM\sys\system_stm32l4xx.h

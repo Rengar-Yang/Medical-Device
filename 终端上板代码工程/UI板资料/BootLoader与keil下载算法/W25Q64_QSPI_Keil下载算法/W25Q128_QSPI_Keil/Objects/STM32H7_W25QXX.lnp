@@ -1,0 +1,11 @@
+--cpu Cortex-M7.fp.dp
+".\objects\flashprg.o"
+".\objects\flashdev.o"
+".\objects\qspi.o"
+".\objects\norflash.o"
+".\objects\sys.o"
+".\objects\delay.o"
+--strict --scatter ".\Target.lin"
+--diag_suppress L6305 --summary_stderr --info summarysizes --map --load_addr_map_info --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\STM32H7_W25QXX.map" -o .\Objects\STM32H7_W25QXX.axf

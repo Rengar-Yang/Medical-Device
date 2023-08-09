@@ -1,0 +1,16 @@
+display\cachedfont.o: ../touchgfx/generated/fonts/src/cachedfont.cpp
+display\cachedfont.o: ../touchgfx/generated/fonts/include/fonts/CachedFont.hpp
+display\cachedfont.o: ../touchgfx/generated/fonts/include/fonts/FontCache.hpp
+display\cachedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Font.hpp
+display\cachedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Types.hpp
+display\cachedfont.o: D:\keil5\ARM\ARMCC\Bin\..\include\assert.h
+display\cachedfont.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+display\cachedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp
+display\cachedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Unicode.hpp
+display\cachedfont.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+display\cachedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/TypedText.hpp
+display\cachedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp
+display\cachedfont.o: ../touchgfx/generated/fonts/include/fonts/ApplicationFontProvider.hpp
+display\cachedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/FontManager.hpp
+display\cachedfont.o: ../touchgfx/generated/fonts/include/fonts/GeneratedFont.hpp
+display\cachedfont.o: ../middlewares/st/touchgfx/framework/include/touchgfx/ConstFont.hpp
